@@ -8,7 +8,8 @@ namespace ConfigFileCs
             Console.WriteLine(Read.FromConfig("HelloWorld"));
             Console.WriteLine(Read.FromConfig("KeyOne"));
             Console.WriteLine(Read.FromConfig("KeyTwo"));
-            Console.ReadKey();
+			Console.WriteLine(Read.FromConfig("MacOs"));
+			Console.ReadKey();
 
         }
     }

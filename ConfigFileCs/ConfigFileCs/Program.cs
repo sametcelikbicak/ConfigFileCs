@@ -10,7 +10,6 @@ namespace ConfigFileCs
             Console.WriteLine(Read.FromConfig("KeyTwo"));
 			Console.WriteLine(Read.FromConfig("MacOs"));
 			Console.ReadKey();
-
         }
     }
 }
